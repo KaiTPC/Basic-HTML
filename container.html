@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>container</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container-row {
+      display: flex;
+      background-color: lightblue;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      border: 3px;
+      padding: 20px solid black;
+    }
+
+    .item {
+      flex-basis: 300px;
+      height: 300px;
+      background-color: #a3cdce;
+    }
+
+    .row2 {
+      justify-content: space-around;
+      background-color: bisque;
+    }
+
+    .row3 {
+      justify-content: space-evenly;
+      background-color: rgb(132, 232, 255);
+    }
+
+    .item1 {
+      background-color: rgb(209, 250, 225);
+    }
+
+    .item2 {
+      background-color: rgb(237, 206, 207);
+    }
+
+    .item3 {
+      background-color: rgb(132, 232, 255);
+    }
+
+    .item4 {
+      background-color: bisque;
+    }
+
+    .item5 {
+      background-color: rgb(220, 208, 238);
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container-row">
+    <div class="item item1">
+      A
+    </div>
+  </div>
+
+  <div class="container-row row2">
+    <div class="item item2">
+      B
+    </div>
+    <div class="item item3">
+      C
+    </div>
+  </div>
+ 
+  <div class="container-row row3">
+    <div class="item item4">
+      C
+    </div>
+
+    <div class="item item5">
+      D
+    </div>
+    <div class="item item6">E</div>
+  </div>
+  </div>
+
+
+</body>
+
+</html>
